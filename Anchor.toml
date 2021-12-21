@@ -1,0 +1,12 @@
+[programs.localnet]
+crash = "HtZqFAA1nyZ38Yfv5pDDDTi2RwGVLc86GuNbahSpdhWU"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/daniel/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"

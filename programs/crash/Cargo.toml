@@ -1,0 +1,23 @@
+[package]
+name = "crash"
+version = "0.1.0"
+description = "Created with Anchor"
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "crash"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+
+[dependencies]
+anchor-lang = "0.19.0"
+solana-program = {version = "1.9.0"}
+hmac = "0.12.0"
+sha2 = "0.10.0"
+hex = "0.4.3"
