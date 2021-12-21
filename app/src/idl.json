@@ -1,0 +1,48 @@
+{
+    "version": "0.1.0",
+    "name": "crash",
+    "instructions": [
+        {
+            "name": "play",
+            "accounts": [
+                {
+                    "name": "fromAccountInfo",
+                    "isMut": true,
+                    "isSigner": true
+                },
+                {
+                    "name": "pdaAccountInfo",
+                    "isMut": true,
+                    "isSigner": false
+                },
+                {
+                    "name": "systemProgramAccountInfo",
+                    "isMut": false,
+                    "isSigner": false
+                },
+                {
+                    "name": "recentBlockhashes",
+                    "isMut": false,
+                    "isSigner": false
+                }
+            ],
+            "args": [
+                {
+                    "name": "amount",
+                    "type": "u64"
+                },
+                {
+                    "name": "multiplier",
+                    "type": "u64"
+                },
+                {
+                    "name": "serverSeed",
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "metadata": {
+        "address": "HtZqFAA1nyZ38Yfv5pDDDTi2RwGVLc86GuNbahSpdhWU"
+    }
+}
